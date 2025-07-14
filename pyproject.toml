@@ -1,0 +1,18 @@
+[project]
+name = "TILP"
+version = "0.1.0"
+description = "TILP"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "tensorboard==1.15.0",
+    "tensorflow-estimator==1.15.1",
+    "tensorflow==1.15.0",
+    "tensorflow-probability==0.7.0",
+    "xgboost==0.82",
+    "joblib>=1.3.2",
+    "pandas>=1.1.5",
+    "tqdm>=4.67.1",
+    "matplotlib>=3.5.3",
+    "scikit-learn>=1.0.2",
+]
